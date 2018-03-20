@@ -1,3 +1,4 @@
+## 按作者官方提示增加了登录帐号版本；
 
 ##问题：
 - 1、redis connection to 127.0.0.1:6379 failed 这个是redis连接不上的问题，请看这篇文章[DoraCMS redis报错问题](http://www.html-js.cn/details/4yyl6O7A.html)

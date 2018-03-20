@@ -23,7 +23,7 @@ var cache = require('../util/cache');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-
+    //res.send(ContentCategory.find({},function(err){console.log(err)}))
     siteFunc.renderToTargetPageByType(req,res,'index');
 
 });
@@ -128,7 +128,7 @@ router.get('/:forder/:defaultUrl', function (req, res, next) {
                 req.query.page = catePageNo;
             }
         }
-        queryCatePage(req, res, currentUrl);
+        //queryCatePage(req, res, currentUrl);
     }else{
         next();
     }
